@@ -41,10 +41,10 @@ public class MainApp {
          System.out.println("Car = "+user.getCar());
       }
 
-      System.out.println(carService.getOwner("model1", 12345));
-      System.out.println(carService.getOwner("model2", 56789));
-      System.out.println(carService.getOwner("model3", 101112));
-      System.out.println(carService.getOwner("model4", 131415));
+      System.out.println(userService.getOwner("model1", 12345));
+      System.out.println(userService.getOwner("model2", 56789));
+      System.out.println(userService.getOwner("model3", 101112));
+      System.out.println(userService.getOwner("model4", 131415));
 
 
       context.close();
